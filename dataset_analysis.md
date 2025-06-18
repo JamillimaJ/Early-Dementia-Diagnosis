@@ -34,13 +34,6 @@ This dataset is sourced from the **Open Access Series of Imaging Studies (OASIS)
     - Includes 51 cases of mild to moderate Alzheimer’s disease
   - 14 subjects converted from non-demented to demented during the study period
 
-## Acknowledgements
-
-If you use this dataset in a publication, please acknowledge the following grant numbers:
-
-```
-P50 AG05681, P01 AG03991, R01 AG021910, P20 MH071616, U24 RR0213
-```
 
 ## Inspiration
 
