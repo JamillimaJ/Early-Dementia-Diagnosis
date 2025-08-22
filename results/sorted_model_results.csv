@@ -1,0 +1,145 @@
+ML Model,Configuration,Accuracy,F1 Score,Recall,Precision,ROC_AUC
+Support Vector Machine 99,PCA,93.333%,82.617%,79.167%,95.714%,92.591%
+Gradient Boosting 90,RFECV,92.000%,80.517%,78.017%,87.343%,92.410%
+Gradient Boosting 95,RFECV,92.000%,80.517%,78.017%,87.343%,92.410%
+Gradient Boosting 99,RFECV,92.000%,80.517%,78.017%,87.343%,92.410%
+Gradient Boosting 90,Original Data,90.667%,78.630%,76.868%,82.302%,90.405%
+Gradient Boosting 90,Normalized Data,90.667%,78.630%,76.868%,82.302%,90.405%
+Gradient Boosting 95,Original Data,90.667%,78.630%,76.868%,82.302%,90.405%
+Gradient Boosting 95,Normalized Data,90.667%,78.630%,76.868%,82.302%,90.405%
+Gradient Boosting 99,Original Data,90.667%,78.630%,76.868%,82.302%,90.405%
+Gradient Boosting 99,Normalized Data,90.667%,78.630%,76.868%,82.302%,90.405%
+Support Vector Machine 90,Normalized Data,92.000%,77.377%,75.000%,95.013%,92.394%
+Support Vector Machine 95,Normalized Data,92.000%,77.377%,75.000%,95.013%,92.394%
+Support Vector Machine 99,Normalized Data,92.000%,77.377%,75.000%,95.013%,92.394%
+Extra Trees 90,Original Data,92.000%,77.377%,75.000%,95.013%,90.461%
+Extra Trees 90,Normalized Data,92.000%,77.377%,75.000%,95.013%,90.461%
+Extra Trees 90,RFECV,92.000%,77.377%,75.000%,95.013%,92.659%
+Extra Trees 95,Original Data,92.000%,77.377%,75.000%,95.013%,90.461%
+Extra Trees 95,Normalized Data,92.000%,77.377%,75.000%,95.013%,90.461%
+Extra Trees 95,RFECV,92.000%,77.377%,75.000%,95.013%,92.659%
+Extra Trees 99,Original Data,92.000%,77.377%,75.000%,95.013%,90.461%
+Extra Trees 99,Normalized Data,92.000%,77.377%,75.000%,95.013%,90.461%
+Extra Trees 99,RFECV,92.000%,77.377%,75.000%,95.013%,92.659%
+Gradient Boosting 99,PCA,92.000%,77.222%,75.000%,94.675%,89.693%
+Random Forest 90,Original Data,90.667%,75.581%,73.851%,83.864%,91.755%
+Random Forest 90,Normalized Data,90.667%,75.581%,73.851%,83.864%,92.103%
+Random Forest 90,SelectKBest,90.667%,75.581%,73.851%,83.864%,87.045%
+Random Forest 90,RFECV,90.667%,75.581%,73.851%,83.864%,90.044%
+Random Forest 95,Original Data,90.667%,75.581%,73.851%,83.864%,91.755%
+Random Forest 95,Normalized Data,90.667%,75.581%,73.851%,83.864%,92.103%
+Random Forest 95,SelectKBest,90.667%,75.581%,73.851%,83.864%,87.045%
+Random Forest 95,RFECV,90.667%,75.581%,73.851%,83.864%,90.044%
+Random Forest 99,Original Data,90.667%,75.581%,73.851%,83.864%,91.755%
+Random Forest 99,Normalized Data,90.667%,75.581%,73.851%,83.864%,92.103%
+Random Forest 99,SelectKBest,90.667%,75.581%,73.851%,83.864%,87.045%
+Random Forest 99,RFECV,90.667%,75.581%,73.851%,83.864%,90.044%
+AdaBoost 90,Original Data,90.667%,75.581%,73.851%,83.864%,91.467%
+AdaBoost 95,Original Data,90.667%,75.581%,73.851%,83.864%,91.467%
+AdaBoost 95,PCA,90.667%,75.581%,73.851%,83.864%,90.353%
+AdaBoost 99,Original Data,90.667%,75.581%,73.851%,83.864%,91.467%
+Bagging 90,Original Data,90.667%,75.581%,73.851%,83.864%,91.096%
+Bagging 90,Normalized Data,90.667%,75.581%,73.851%,83.864%,91.053%
+Bagging 95,Original Data,90.667%,75.581%,73.851%,83.864%,91.096%
+Bagging 95,Normalized Data,90.667%,75.581%,73.851%,83.864%,91.053%
+Bagging 99,Original Data,90.667%,75.581%,73.851%,83.864%,91.096%
+Bagging 99,Normalized Data,90.667%,75.581%,73.851%,83.864%,91.053%
+CatBoost 90,Original Data,90.667%,75.581%,73.851%,83.864%,94.462%
+CatBoost 90,Normalized Data,90.667%,75.581%,73.851%,83.864%,94.462%
+CatBoost 90,RFECV,90.667%,75.581%,73.851%,83.864%,94.543%
+CatBoost 95,Original Data,90.667%,75.581%,73.851%,83.864%,94.462%
+CatBoost 95,Normalized Data,90.667%,75.581%,73.851%,83.864%,94.462%
+CatBoost 95,RFECV,90.667%,75.581%,73.851%,83.864%,94.543%
+CatBoost 99,Original Data,90.667%,75.581%,73.851%,83.864%,94.462%
+CatBoost 99,Normalized Data,90.667%,75.581%,73.851%,83.864%,94.462%
+CatBoost 99,RFECV,90.667%,75.581%,73.851%,83.864%,94.543%
+Stacking Classifier 90,Normalized Data,90.667%,75.581%,73.851%,83.864%,94.150%
+Stacking Classifier 95,Normalized Data,90.667%,75.581%,73.851%,83.864%,94.150%
+Stacking Classifier 99,Normalized Data,90.667%,75.581%,73.851%,83.864%,94.150%
+AdaBoost 90,Normalized Data,88.000%,75.509%,74.841%,76.466%,91.191%
+AdaBoost 95,Normalized Data,88.000%,75.509%,74.841%,76.466%,91.191%
+AdaBoost 99,Normalized Data,88.000%,75.509%,74.841%,76.466%,91.191%
+Decision Tree 99,PCA,89.333%,73.973%,72.973%,77.859%,84.299%
+XGBoost 90,Original Data,89.333%,73.966%,72.701%,78.267%,91.126%
+XGBoost 90,Normalized Data,89.333%,73.966%,72.701%,78.267%,91.126%
+XGBoost 90,RFECV,89.333%,73.966%,72.701%,78.267%,93.648%
+XGBoost 95,Original Data,89.333%,73.966%,72.701%,78.267%,91.126%
+XGBoost 95,Normalized Data,89.333%,73.966%,72.701%,78.267%,91.126%
+XGBoost 95,RFECV,89.333%,73.966%,72.701%,78.267%,93.648%
+XGBoost 99,Original Data,89.333%,73.966%,72.701%,78.267%,91.126%
+XGBoost 99,Normalized Data,89.333%,73.966%,72.701%,78.267%,91.126%
+XGBoost 99,RFECV,89.333%,73.966%,72.701%,78.267%,93.648%
+Decision Tree 90,PCA,86.667%,71.465%,71.219%,72.137%,83.762%
+Decision Tree 90,Original Data,86.667%,71.103%,70.402%,72.620%,88.745%
+Decision Tree 90,Normalized Data,86.667%,71.103%,70.402%,72.620%,88.745%
+Decision Tree 95,Original Data,86.667%,71.103%,70.402%,72.620%,88.745%
+Decision Tree 95,Normalized Data,86.667%,71.103%,70.402%,72.620%,88.745%
+Decision Tree 99,Original Data,86.667%,71.103%,70.402%,72.620%,88.745%
+Decision Tree 99,Normalized Data,86.667%,71.103%,70.402%,72.620%,88.745%
+Random Forest 99,PCA,90.667%,70.905%,70.833%,93.974%,92.397%
+AdaBoost 90,SelectKBest,90.667%,70.905%,70.833%,93.974%,85.459%
+AdaBoost 95,SelectKBest,90.667%,70.905%,70.833%,93.974%,85.459%
+AdaBoost 99,SelectKBest,90.667%,70.905%,70.833%,93.974%,85.459%
+AdaBoost 99,PCA,90.667%,70.905%,70.833%,93.974%,89.666%
+XGBoost 99,PCA,90.667%,70.905%,70.833%,93.974%,91.003%
+Extra Trees 90,SelectKBest,90.667%,70.905%,70.833%,93.974%,89.493%
+Extra Trees 95,SelectKBest,90.667%,70.905%,70.833%,93.974%,89.493%
+Extra Trees 95,PCA,90.667%,70.905%,70.833%,93.974%,93.578%
+Extra Trees 99,SelectKBest,90.667%,70.905%,70.833%,93.974%,89.493%
+Extra Trees 99,PCA,90.667%,70.905%,70.833%,93.974%,93.469%
+CatBoost 99,PCA,90.667%,70.905%,70.833%,93.974%,92.832%
+Voting Classifier 90,Normalized Data,90.667%,70.905%,70.833%,93.974%,91.907%
+Voting Classifier 95,Normalized Data,90.667%,70.905%,70.833%,93.974%,91.907%
+Voting Classifier 95,PCA,90.667%,70.905%,70.833%,93.974%,92.025%
+Voting Classifier 99,Normalized Data,90.667%,70.905%,70.833%,93.974%,91.907%
+Voting Classifier 99,PCA,90.667%,70.905%,70.833%,93.974%,93.177%
+Stacking Classifier 99,PCA,90.667%,70.905%,70.833%,93.974%,92.830%
+Support Vector Machine 90,SelectKBest,89.333%,69.581%,69.684%,77.235%,89.989%
+Support Vector Machine 95,SelectKBest,89.333%,69.581%,69.684%,77.235%,89.989%
+Support Vector Machine 95,PCA,89.333%,69.581%,69.684%,77.235%,92.377%
+Support Vector Machine 99,SelectKBest,89.333%,69.581%,69.684%,77.235%,89.989%
+Random Forest 90,PCA,89.333%,69.581%,69.684%,77.235%,86.482%
+Random Forest 95,PCA,89.333%,69.581%,69.684%,77.235%,92.396%
+Gradient Boosting 90,PCA,89.333%,69.581%,69.684%,77.235%,85.640%
+XGBoost 95,PCA,89.333%,69.581%,69.684%,77.235%,84.404%
+Bagging 90,PCA,89.333%,69.581%,69.684%,77.235%,86.058%
+Bagging 95,PCA,89.333%,69.581%,69.684%,77.235%,93.136%
+Bagging 99,PCA,89.333%,69.581%,69.684%,77.235%,92.667%
+CatBoost 90,SelectKBest,89.333%,69.581%,69.684%,77.235%,86.405%
+CatBoost 90,PCA,89.333%,69.581%,69.684%,77.235%,88.192%
+CatBoost 95,SelectKBest,89.333%,69.581%,69.684%,77.235%,86.405%
+CatBoost 95,PCA,89.333%,69.581%,69.684%,77.235%,93.359%
+CatBoost 99,SelectKBest,89.333%,69.581%,69.684%,77.235%,86.405%
+Voting Classifier 90,PCA,89.333%,69.581%,69.684%,77.235%,89.183%
+Stacking Classifier 90,PCA,89.333%,69.581%,69.684%,77.235%,86.784%
+Stacking Classifier 95,PCA,89.333%,69.581%,69.684%,77.235%,92.157%
+Gradient Boosting 95,PCA,88.000%,68.371%,68.534%,71.603%,88.262%
+XGBoost 90,SelectKBest,88.000%,68.371%,68.534%,71.603%,86.017%
+XGBoost 95,SelectKBest,88.000%,68.371%,68.534%,71.603%,86.017%
+XGBoost 99,SelectKBest,88.000%,68.371%,68.534%,71.603%,86.017%
+Gradient Boosting 90,SelectKBest,86.667%,67.241%,67.385%,68.743%,84.988%
+Gradient Boosting 95,SelectKBest,86.667%,67.241%,67.385%,68.743%,84.988%
+Gradient Boosting 99,SelectKBest,86.667%,67.241%,67.385%,68.743%,84.988%
+Decision Tree 90,SelectKBest,86.667%,67.241%,67.385%,68.743%,81.500%
+Decision Tree 95,SelectKBest,86.667%,67.241%,67.385%,68.743%,81.500%
+Decision Tree 99,SelectKBest,86.667%,67.241%,67.385%,68.743%,81.500%
+Decision Tree 95,PCA,85.333%,66.542%,66.780%,66.969%,86.076%
+Support Vector Machine 90,RFECV,89.333%,62.970%,66.667%,59.666%,79.030%
+Support Vector Machine 90,PCA,89.333%,62.970%,66.667%,59.666%,90.228%
+Support Vector Machine 95,RFECV,89.333%,62.970%,66.667%,59.666%,79.030%
+Support Vector Machine 99,RFECV,89.333%,62.970%,66.667%,59.666%,79.030%
+AdaBoost 90,RFECV,89.333%,62.970%,66.667%,59.666%,80.958%
+AdaBoost 95,RFECV,89.333%,62.970%,66.667%,59.666%,80.958%
+AdaBoost 99,RFECV,89.333%,62.970%,66.667%,59.666%,80.958%
+Bagging 90,RFECV,89.333%,62.970%,66.667%,59.666%,79.030%
+Bagging 95,RFECV,89.333%,62.970%,66.667%,59.666%,79.030%
+Bagging 99,RFECV,89.333%,62.970%,66.667%,59.666%,79.030%
+Decision Tree 90,RFECV,89.333%,62.970%,66.667%,59.666%,79.030%
+Decision Tree 95,RFECV,89.333%,62.970%,66.667%,59.666%,79.030%
+Decision Tree 99,RFECV,89.333%,62.970%,66.667%,59.666%,79.030%
+Extra Trees 90,PCA,89.333%,62.970%,66.667%,59.666%,91.025%
+XGBoost 90,PCA,88.000%,62.387%,65.517%,59.565%,84.032%
+Bagging 90,SelectKBest,88.000%,62.387%,65.517%,59.565%,86.086%
+Bagging 95,SelectKBest,88.000%,62.387%,65.517%,59.565%,86.086%
+Bagging 99,SelectKBest,88.000%,62.387%,65.517%,59.565%,86.086%
+AdaBoost 90,PCA,86.667%,61.784%,64.368%,59.457%,86.138%
